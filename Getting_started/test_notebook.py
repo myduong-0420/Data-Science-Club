@@ -27,8 +27,8 @@ def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
 
 # compute_vals(data, COLOR_CARD, "sleep_hour", "card_col")
 
-def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, 
-						 nrow: int = 1, ncol: int = 2):
+def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col: str, 
+                         nrow: int = 1, ncol: int = 2):
 	"""
 	Visualizes the distribution of favorite seasons for each team in a bar chart.
 
@@ -38,22 +38,37 @@ def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str,
     target_col (str): The column name in the dataframe representing the favorite season.
     nrow (int, optional): The number of rows in the subplot grid. Default is 1.
     ncol (int, optional): The number of columns in the subplot grid. Default is 2.
-	
+
 	"""
+    # Define all possible seasons
+	all_seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+	
 	_, axes = plt.subplots(nrow, ncol, figsize=(16, 12), sharex=True)
-	for i, team in enumerate(card):     # team: heart
-		team_df = df[df["card_col"] == team]
-		x_axis = list(dict(team_df[target_col].value_counts()).keys())
-		y_axis = list(dict(team_df[target_col].value_counts()).values())
-		axes[i].bar(x_axis, y_axis)
+	axes = axes.flatten()
+	
+	for i, team in enumerate(card):
+		team_df = df[df[team_col] == team]
+        
+        # Get the counts of each season, ensuring all seasons are represented
+		season_counts = team_df[target_col].value_counts().reindex(all_seasons, fill_value=0)
+		x_axis = season_counts.index.tolist()  # Fixed set of seasons
+		y_axis = season_counts.values.tolist()  # Corresponding counts
+		bar_colors = ['red', 'pink', 'coral', 'orange']
+        
+        # Create bar plot
+		bars = axes[i].bar(x_axis, y_axis, color=bar_colors)
 		axes[i].set_ylabel('Number of students')
 		axes[i].set_title(f"Favorite seasons in team {team}")
-		axes[i].legend(title='Favorite seasons')
-
-	plt.title("Favorite seasons in each team")
+        
+        # Set legend using x_axis as labels
+		axes[i].legend(bars, x_axis, title='Favorite seasons')
+	
+	plt.suptitle("Favorite seasons in each team", fontsize=20)
+	plt.tight_layout(rect=[0, 0, 1, 0.96])  # Adjust layout to fit title
 	plt.show()
 
-def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, 
+
+def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: str,
 						 nrow: int = 1, ncol: int = 2):
 	"""
 	Visualizes the proportion of fears for each team using pie charts.
@@ -67,8 +82,10 @@ def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str,
 
 	"""
 	_, axes = plt.subplots(nrow, ncol, figsize=(16, 12), sharex=True)
-	for i, team in enumerate(card):
-		team_df = df[df["card_col"] == team]
+	axes = axes.flatten()
+
+	for i, team in enumerate(card):     # team: heart
+		team_df = df[df[team_col] == team]
 		labels = list(dict(team_df[target_col].value_counts()).keys())
 		x = list(dict(team_df[target_col].value_counts()).values())
 		axes[i].pie(x, labels=labels, autopct='%1.1f%%')
