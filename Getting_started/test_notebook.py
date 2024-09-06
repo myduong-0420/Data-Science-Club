@@ -1,12 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-CARD = ["heart", "club", "spade", "diamond"]
-
 def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
-	"""
-	Computes and prints the average, minimum, and maximum values of a target column for each team.
+    """
+    Computes and prints the average, minimum, and maximum values of a target column for each team.
 
     Parameters:
     df (pd.DataFrame): The input dataframe containing the data.
@@ -14,7 +11,7 @@ def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
     target_col (str): The column name in the dataframe representing the target variable (e.g., hours of sleep).
     team_col (str): The column name in the dataframe representing the team identifier.
 
-	"""
+    """
 	for i in range(len(card)):
 		df_team = df[df[team_col] == card[i]]
 		av_hour = df_team[target_col].mean()
@@ -29,8 +26,8 @@ def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
 
 def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col: str, 
                          nrow: int = 1, ncol: int = 2):
-	"""
-	Visualizes the distribution of favorite seasons for each team in a bar chart.
+    """
+    Visualizes the distribution of favorite seasons for each team in a bar chart.
 
     Parameters:
     df (pd.DataFrame): The input dataframe containing the data.
@@ -39,7 +36,7 @@ def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col
     nrow (int, optional): The number of rows in the subplot grid. Default is 1.
     ncol (int, optional): The number of columns in the subplot grid. Default is 2.
 
-	"""
+    """
     # Define all possible seasons
 	all_seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 	
@@ -70,8 +67,8 @@ def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col
 
 def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: str,
 						 nrow: int = 1, ncol: int = 2):
-	"""
-	Visualizes the proportion of fears for each team using pie charts.
+    """
+    Visualizes the proportion of fears for each team using pie charts.
 
     Parameters:
     df (pd.DataFrame): The input dataframe containing the data.
@@ -80,7 +77,7 @@ def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: 
     nrow (int, optional): The number of rows in the subplot grid. Default is 1.
     ncol (int, optional): The number of columns in the subplot grid. Default is 2.
 
-	"""
+    """
 	_, axes = plt.subplots(nrow, ncol, figsize=(16, 12), sharex=True)
 	axes = axes.flatten()
 
