@@ -1,22 +1,21 @@
-What is your gender?  ,What year are you in college?  ,What is your major or field of study?  ,What is your age group?  ,Are you an international student?  ,Column 6,Column 7,Column 8,Column 9,Column 10,Column 11,Column 12,Column 13
-Female,Sophomore,v,18-20,Yes,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4,Spades
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0,Hearts
-Male,Sophomore,w,21-23,Yes,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1,Clubs
-Female,Sophomore,ai,18-20,Yes,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8,Diamonds
-Male,Freshman,m,24-26,No,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6,Spades
-Male,Junior,l,21-23,No,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0,Clubs
-Female,Sophomore,v,18-20,Yes,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4,Spades
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0,Hearts
-Male,Sophomore,w,21-23,Yes,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1,Clubs
-Female,Sophomore,ai,18-20,Yes,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8,Diamonds
-Male,Freshman,m,24-26,No,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6,Spades
-Male,Junior,l,21-23,No,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0,Clubs
-Female,Sophomore,v,18-20,Yes,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4,Spades
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0,Hearts
-Male,Sophomore,w,21-23,Yes,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1,Clubs
-Female,Sophomore,ai,18-20,Yes,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8,Diamonds
-Male,Freshman,m,24-26,No,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6,Spades
-Male,Junior,l,21-23,No,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0,Clubs
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0,Hearts
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Spring,Playing video games,8,Plan a month-long vacation,0,Hearts
-Female,Freshman,c,Under 18,Yes,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0,Hearts
+What is your name?,What is your gender?  ,What year are you in college?  ,What is your major or field of study?  ,What is your age group?  ,Are you an international student?  ,Column 7,Column 8,Column 9,Column 10,Column 11,Column 12,Column 13,Column 14
+a,Female,Sophomore,e,21-23,Yes,Diamonds,Finding a job/intern,Chocolate,Fall,Hanging out with friends,1,Plan a month-long vacation,1
+b,Male,Sophomore,cs,18-20,Yes,Diamonds,Group projects,Ramen,Fall,Hanging out with friends,8,Plan a month-long vacation,2
+c,Female,Sophomore,4,18-20,Yes,Hearts,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4
+a,Female,Freshman,c,Under 18,Yes,Hearts,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0
+b,Male,Sophomore,w,21-23,Yes,Clubs,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1
+c,Female,Sophomore,ai,18-20,Yes,Diamonds,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8
+a,Male,Freshman,m,24-26,No,Spades,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6
+b,Male,Junior,9,21-23,No,Clubs,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0
+c,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
+a,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
+a,Female,Sophomore,e,21-23,Yes,Diamonds,Finding a job/intern,Chocolate,Fall,Hanging out with friends,1,Plan a month-long vacation,1
+b,Male,Sophomore,cs,18-20,Yes,Diamonds,Group projects,Ramen,Fall,Hanging out with friends,8,Plan a month-long vacation,2
+c,Female,Sophomore,4,18-20,Yes,Hearts,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4
+a,Female,Freshman,c,Under 18,Yes,Hearts,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0
+b,Male,Sophomore,w,21-23,Yes,Clubs,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1
+c,Female,Sophomore,ai,18-20,Yes,Diamonds,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8
+a,Male,Freshman,m,24-26,No,Spades,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6
+b,Male,Junior,9,21-23,No,Clubs,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0
+c,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
+a,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
