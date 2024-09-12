@@ -48,7 +48,7 @@ def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col
         season_counts = team_df[target_col].value_counts().reindex(all_seasons, fill_value=0)
         x_axis = season_counts.index.tolist()  # Fixed set of seasons
         y_axis = season_counts.values.tolist()  # Corresponding counts
-        bar_colors = ['red', 'pink', 'coral', 'orange']
+        bar_colors = ['forestgreen', 'gold', 'coral', 'darkturquoise']
 
         # Create bar plot
         bars = axes[i].bar(x_axis, y_axis, color=bar_colors)
@@ -77,7 +77,7 @@ def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: 
     ncol (int, optional): The number of columns in the subplot grid. Default is 2.
 
     """
-    _, axes = plt.subplots(nrow, ncol, figsize=(16, 12), sharex=True)
+    _, axes = plt.subplots(nrow, ncol, figsize=(16, 6*nrow), sharex=True)
     axes = axes.flatten()
 
     for i, team in enumerate(card):
@@ -87,5 +87,5 @@ def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: 
         axes[i].pie(x, labels=labels, autopct='%1.1f%%')
         axes[i].set_title(f"Fear proportion in team {team}")
 
-    plt.title("Illustration of college fear at today's event")
+    plt.suptitle("Illustration of college fear at today's event")
     plt.show()
