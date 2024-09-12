@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
+def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str, target_print: str = "hours of sleep"):
     """
     Computes and prints the average, minimum, and maximum values of a target column for each team.
 
@@ -17,9 +17,9 @@ def compute_vals(df: pd.DataFrame, card: list, target_col: str, team_col: str):
         av_hour = df_team[target_col].mean()
         min_hour = df_team[target_col].min()
         max_hour = df_team[target_col].max()
-        print(f"The average hours of sleep for team {card[i]} is {av_hour}")
-        print(f"The minimum hours of sleep for team {card[i]} is {min_hour}")
-        print(f"The maximum hours of sleep for team {card[i]} is {max_hour}")
+        print(f"The average {target_print} for team {card[i]} is {av_hour}")
+        print(f"The minimum {target_print} for team {card[i]} is {min_hour}")
+        print(f"The maximum {target_print} for team {card[i]} is {max_hour}")
         print()
 
 # compute_vals(data, COLOR_CARD, "sleep_hour", "card_col")
@@ -63,8 +63,8 @@ def visualize_fav_season(df: pd.DataFrame, card: list, target_col: str, team_col
     plt.show()
 
 
-def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: str,
-                       nrow: int = 1, ncol: int = 2):
+def visualize(df: pd.DataFrame, card: list, target_col: str, team_col: str,
+                       nrow: int = 1, ncol: int = 2, subtitle="Fear proportion in team", title: str = "Illustration of college fear"):
     """
     Visualizes the proportion of fears for each team using pie charts.
 
@@ -85,7 +85,7 @@ def visualize_big_fear(df: pd.DataFrame, card: list, target_col: str, team_col: 
         labels = list(dict(team_df[target_col].value_counts()).keys())
         x = list(dict(team_df[target_col].value_counts()).values())
         axes[i].pie(x, labels=labels, autopct='%1.1f%%')
-        axes[i].set_title(f"Fear proportion in team {team}")
+        axes[i].set_title(f"{subtitle} {team}")
 
-    plt.suptitle("Illustration of college fear at today's event")
+    plt.suptitle(title)
     plt.show()
