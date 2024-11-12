@@ -1,21 +1,45 @@
-What is your name?,What is your gender?  ,What year are you in college?  ,What is your major or field of study?  ,What is your age group?  ,Are you an international student?  ,Column 7,Column 8,Column 9,Column 10,Column 11,Column 12,Column 13,Column 14
-a,Female,Sophomore,e,21-23,Yes,Diamonds,Finding a job/intern,Chocolate,Fall,Hanging out with friends,1,Plan a month-long vacation,1
-b,Male,Sophomore,cs,18-20,Yes,Diamonds,Group projects,Ramen,Fall,Hanging out with friends,8,Plan a month-long vacation,2
-c,Female,Sophomore,4,18-20,Yes,Hearts,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4
-a,Female,Freshman,c,Under 18,Yes,Hearts,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0
-b,Male,Sophomore,w,21-23,Yes,Clubs,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1
-c,Female,Sophomore,ai,18-20,Yes,Diamonds,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8
-a,Male,Freshman,m,24-26,No,Spades,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6
-b,Male,Junior,9,21-23,No,Clubs,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0
-c,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
-a,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
-a,Female,Sophomore,e,21-23,Yes,Diamonds,Finding a job/intern,Chocolate,Fall,Hanging out with friends,1,Plan a month-long vacation,1
-b,Male,Sophomore,cs,18-20,Yes,Diamonds,Group projects,Ramen,Fall,Hanging out with friends,8,Plan a month-long vacation,2
-c,Female,Sophomore,4,18-20,Yes,Hearts,Public speaking,Pizza,Fall,Scrolling social media,4,Spontaneous road trip,4
-a,Female,Freshman,c,Under 18,Yes,Hearts,Finding a job/intern,Mac and cheese,Winter,Playing video games,8,Plan a month-long vacation,0
-b,Male,Sophomore,w,21-23,Yes,Clubs,Failing a class,Chocolate,Summer,Hanging out with friends,5,Spontaneous road trip,1
-c,Female,Sophomore,ai,18-20,Yes,Diamonds,Finding a job/intern,Chocolate,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,8
-a,Male,Freshman,m,24-26,No,Spades,Group projects,Ramen,Summer,"Binge-reading (novels, comics, etc.)",8,Plan a month-long vacation,6
-b,Male,Junior,9,21-23,No,Clubs,Group projects,Mac and cheese,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,0
-c,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
-a,Male,Sophomore,e,18-20,No,Spades,Group projects,bún bò,Winter,Hanging out with friends,7,Spontaneous road trip,0
+What number you received?,What is your gender?  ,What year are you in college?  ,What is your major or field of study?  ,What is your age group?  ,Are you an international student?  ,Column 7,Column 8,Column 9,Column 10,Column 11,Column 12,Column 13,Column 14
+31,Male,Sophomore,CS,18-20,Yes,Hearts,Finding a job/intern,Pizza,Fall,Binge-watching a movie/TV series,10,Spontaneous road trip,34
+3,Male,Junior,CS,18-20,No,Hearts,Finding a job/intern,Chocolate,Fall,Hanging out with friends,7,Spontaneous road trip,0
+19,Male,Freshman,Econometrics,18-20,Yes,Diamonds,Finding a job/intern,Ramen,Winter,Playing video games,9,Spontaneous road trip,0
+21,Male,Freshman,AIBA,24-26,Yes,Clubs,Failing a class,Pizza,Summer,Scrolling social media,8,Spontaneous road trip,0
+47,Female,Junior,information science con/data analytics ,18-20,No,Spades,Finding a job/intern,Ramen,Winter,Scrolling social media,6,Plan a month-long vacation,0
+20,Male,Senior,Phyiscs ,24-26,No,Clubs,Failing a class,Pizza,Fall,Binge-watching a movie/TV series,7,Plan a month-long vacation,0
+22,Male,Freshman,Computer science,18-20,No,Spades,Finding a job/intern,Pizza,Fall,Scrolling social media,8,Plan a month-long vacation,0
+12,Female,Sophomore,Computer Science,18-20,No,Diamonds,Failing a class,Ramen,Fall,"Binge-reading (novels, comics, etc.)",9,Plan a month-long vacation,0
+10,Male,Senior,Artificial Intelligence and Business Analytics,27 and above,Yes,Spades,Public speaking,Shawarma,Winter,Scrolling social media,5,Spontaneous road trip,0
+33,Male,Senior,IT,21-23,No,Spades,Finding a job/intern,Pizza,Fall,Hanging out with friends,8,Spontaneous road trip,0
+7,Female,Sophomore,BAIS,18-20,Yes,Hearts,Finding a job/intern,Ramen,Summer,Scrolling social media,5,Spontaneous road trip,15
+34,Male,Sophomore,Business analytics,18-20,No,Clubs,Finding a job/intern,Mac and cheese,Fall,Scrolling social media,7,Plan a month-long vacation,0
+6,Female,Freshman,Computer science ,18-20,Yes,Clubs,Finding a job/intern,MO:MO,Fall,Scrolling social media,6,Spontaneous road trip,2
+2,Female,Freshman,Artificial Intelligence and Business Statistics,27 and above,Yes,Diamonds,Finding a job/intern,Noodles,Winter,Binge-watching a movie/TV series,5,Spontaneous road trip,0
+16,Female,Freshman,Computer Science ,18-20,Yes,Hearts,Failing a class,Chocolate,Spring,Scrolling social media,8,Spontaneous road trip,0
+50,Male,Freshman,Computer science,18-20,Yes,Clubs,Public speaking,Rice,Fall,"Binge-reading (novels, comics, etc.)",9,Spontaneous road trip,2
+4,Male,Freshman,Computer Science,18-20,Yes,Clubs,Finding a job/intern,Chocolate,Summer,Scrolling social media,7,Spontaneous road trip,3
+18,Male,Freshman,Computer Science,Under 18,No,Diamonds,Public speaking,Ramen,Summer,Playing video games,8,Plan a month-long vacation,0
+45,Male,Senior,Masters in artificial intelligence and business analytics ,24-26,Yes,Diamonds,Finding a job/intern,Butter chicken with galrlic naan and chicken biryani,Winter,Hanging out with friends,5,Plan a month-long vacation,0
+15,Male,Senior,Business analytics,24-26,Yes,Spades,Finding a job/intern,Pizza,Spring,Hanging out with friends,7,Spontaneous road trip,2
+25,Female,Sophomore,Computer Science,18-20,Yes,Spades,Finding a job/intern,Pizza,Spring,Hanging out with friends,5,Spontaneous road trip,0
+35,Female,Junior,BAIS,21-23,Yes,Hearts,Finding a job/intern,Chocolate,Fall,Scrolling social media,8.2,Spontaneous road trip,2
+43,Male,Senior,Business Analytics and Information Systems,21-23,No,Diamonds,Finding a job/intern,Pizza,Summer,Hanging out with friends,7,Plan a month-long vacation,0
+32,Male,Freshman,Comp Science ,18-20,Yes,Hearts,Finding a job/intern,Pizza,Spring,Scrolling social media,9,Spontaneous road trip,2
+49,Female,Junior,Applied and Computational Mathematics,21-23,Yes,Diamonds,Finding a job/intern,Pasta with broccoli,Summer,Binge-watching a movie/TV series,7,Spontaneous road trip,2
+30,Female,Freshman,Computer Science,18-20,Yes,Hearts,Finding a job/intern,Chocolate,Fall,Scrolling social media,7,Plan a month-long vacation,5
+24,Male,Freshman,Computer science,18-20,Yes,Diamonds,Finding a job/intern,Ramen,Fall,Playing video games,8,Plan a month-long vacation,0
+38,Male,Sophomore,Computer Science,18-20,Yes,Diamonds,Finding a job/intern,Subway sandwich,Fall,Scrolling social media,7,Spontaneous road trip,0
+8,Male,Freshman,Computer science ,18-20,Yes,Spades,Finding a job/intern,Pizza,Summer,Scrolling social media,6,Plan a month-long vacation,0
+14,Male,Sophomore,Computer Science,18-20,Yes,Spades,Finding a job/intern,Chocolate,Summer,Scrolling social media,7.5,Plan a month-long vacation,0
+27,Female,Junior,Cybersecurity ,21-23,Yes,Spades,Finding a job/intern,Chocolate,Winter,Scrolling social media,9,Spontaneous road trip,0
+1,Male,Sophomore,Mathematics,21-23,Yes,Hearts,Finding a job/intern,Chocolate,Spring,Hanging out with friends,9,Spontaneous road trip,0
+43,Male,Senior,Business Analytics and Information Systems,21-23,No,Diamonds,Finding a job/intern,Pizza,Summer,Hanging out with friends,7,Plan a month-long vacation,0
+25,Female,Sophomore,Computer Science,18-20,Yes,Spades,Finding a job/intern,Pizza,Spring,Hanging out with friends,5,Spontaneous road trip,0
+21,Male,Freshman,AIBA,24-26,Yes,Clubs,Failing a class,Pizza,Fall,Scrolling social media,8,Spontaneous road trip,0
+30,Female,Freshman,Computer Science,18-20,Yes,Hearts,Finding a job/intern,Chocolate,Fall,Scrolling social media,7,Plan a month-long vacation,5
+35,Female,Junior,BAIS,21-23,Yes,Hearts,Finding a job/intern,Chocolate,Fall,Scrolling social media,8.2,Spontaneous road trip,2
+Kritana Bastola,Female,Freshman,Computer science ,18-20,Yes,Hearts,Failing a class,Chocolate,Spring,Scrolling social media,8,Spontaneous road trip,0
+2,Female,Freshman,Artificial Intelligence and Business Analytics,27 and above,Yes,Diamonds,Finding a job/intern,Noodles,Winter,Binge-watching a movie/TV series,5,Spontaneous road trip,0
+10,Male,Senior,Artificial intelligence and business analytics ,27 and above,Yes,Clubs,Public speaking,Pizza,Winter,Scrolling social media,5,Spontaneous road trip,0
+19,Male,Freshman,Econometrics,18-20,Yes,Diamonds,Finding a job/intern,Ramen,Winter,Playing video games,9,Spontaneous road trip,0
+45,Male,Senior,Artificial intelligence and Business Analytics ,24-26,Yes,Diamonds,Finding a job/intern,Butter chicken and garlic naan ,Winter,Hanging out with friends,5,Plan a month-long vacation,0
+41,Male,Freshman,Computer Science ,18-20,Yes,Spades,Finding a job/intern,Pizza,Fall,Playing video games,6,Spontaneous road trip,1
+43,Male,Senior,Business Analytics and Information Systems,21-23,No,Diamonds,Finding a job/intern,Pizza,Summer,Hanging out with friends,7,Plan a month-long vacation,0

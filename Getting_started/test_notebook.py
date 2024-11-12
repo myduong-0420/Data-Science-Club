@@ -89,3 +89,43 @@ def visualize(df: pd.DataFrame, card: list, target_col: str, team_col: str,
 
     plt.suptitle(title)
     plt.show()
+
+from collections import Counter
+
+from collections import Counter
+
+def findMaximumTasks(task, m):
+    # Step 1: Count the frequency of each task
+    task_count = Counter(task)
+    
+    # Step 2: Convert the frequencies into a sorted list
+    frequencies = list(task_count.values())
+    frequencies.sort(reverse=True)
+    
+    # Step 3: Greedily distribute tasks to maximize unique task sets
+    total_unique_tasks = 0
+    sets = [0] * m  # Array to keep track of how many tasks each node processes
+    
+    # Distribute the tasks as long as there are tasks left and nodes can take more
+    while frequencies:
+        for i in range(m):
+            if frequencies and frequencies[0] > 0:  # Assign task to node i
+                sets[i] += 1  # Assign one task to node i
+                frequencies[0] -= 1  # Decrease frequency of the most frequent task
+                
+                # Re-sort the frequency array to maintain highest-first order
+                frequencies.sort(reverse=True)
+                
+                # Increase the total unique tasks processed
+                total_unique_tasks += 1
+                
+            # If frequencies[0] becomes 0, we pop it from the list
+            if frequencies and frequencies[0] == 0:
+                frequencies.pop(0)
+    
+    return total_unique_tasks
+
+# Example usage
+task = [1, 2, 2, 1, 3, 1, 3]
+m = 2
+print(findMaximumTasks(task, m))  # Output: Maximum number of unique tasks processed
